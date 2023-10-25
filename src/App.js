@@ -1,24 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import ListComponent from "./Components/List/ListComponent"
+// import StateFull from "./Components/stateFull&less/StateFull"
+import Uncontrolled from "./Components/uncontrolled/Uncontrolled"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Uncontrolled />
   );
 }
 
