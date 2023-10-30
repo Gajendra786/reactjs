@@ -6,10 +6,17 @@
 // import TwoWay  from "./Components/binding/Twoway"
 // import ConstructorAndRender from "./Components/lifeCycleMethods/Contructor&Render"
 // import ComponentDidMount from "./Components/lifeCycleMethods/ComponentDidMount"
-import ComponentDidUpdate from "./Components/lifeCycleMethods/ComponentDidUpdate"
+// import ComponentDidUpdate from "./Components/lifeCycleMethods/ComponentDidUpdate"
+// import ComponentDidUpdateParent from "./Components/lifeCycleMethods/ComponentDidUpdateParent"
+// import ComponentWillUnmountParent from "./Components/lifeCycleMethods/ComponentWillUnmountParent"
+
+
+// ----------------------------
+
+import UseState from "./Components/functionHooks/UseState"
 function App() {
   return (
-    <ComponentDidUpdate />
+    <UseState />
   );
 }
 
