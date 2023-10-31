@@ -1,3 +1,5 @@
+import React, { useEffect,useState } from "react";
+
 // import ListComponent from "./Components/List/ListComponent"
 // import StateFull from "./Components/stateFull&less/StateFull"
 // import Uncontrolled from "./Components/uncontrolled/Uncontrolled"
@@ -13,10 +15,20 @@
 
 // ----------------------------
 
-import UseState from "./Components/functionHooks/UseState"
+// import UseState from "./Components/functionHooks/UseState"
+import UseEffect from "./Components/functionHooks/UseEffect"
+// import UseRefIssue from "./Components/functionHooks/UseRefIssue"
+// import UseRef from "./Components/functionHooks/UseRef"
 function App() {
+  const [count,setCount] = useState(0)
+  const countHandler = ()=>{
+    setCount(count+1)
+  }
   return (
-    <UseState />
+    <>
+    <UseEffect count={count} val={0}/>
+    <button onClick={countHandler}>Change Count</button>
+    </>
   );
 }
 
