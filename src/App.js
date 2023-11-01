@@ -16,20 +16,35 @@ import React, { useEffect,useState } from "react";
 // ----------------------------
 
 // import UseState from "./Components/functionHooks/UseState"
-import UseEffect from "./Components/functionHooks/UseEffect"
+// import UseEffect from "./Components/functionHooks/UseEffect"
 // import UseRefIssue from "./Components/functionHooks/UseRefIssue"
-// import UseRef from "./Components/functionHooks/UseRef"
-function App() {
-  const [count,setCount] = useState(0)
-  const countHandler = ()=>{
-    setCount(count+1)
-  }
+// // import UseRef from "./Components/functionHooks/UseRef"
+
+// import UseMemo from "./Components/functionHooks/UseMemo";
+// import UseCallbackParent from "./Components/functionHooks/UseCallbackParent";
+// import ComA from "./Components/functionHooks/UseContext/ComA";
+import UseContextA from "./Components/functionHooks/UseContext/UseContextA";
+
+// function App() {
+//   const [count,setCount] = useState(0)
+//   const countHandler = ()=>{
+//     setCount(count+1)
+//   }
+//   return (
+//     <>
+//     <UseEffect count={count} val={0}/>
+//     <button onClick={countHandler}>Change Count</button>
+//     </>
+//   );
+// }
+
+
+
+
+const App = ()=>{
   return (
-    <>
-    <UseEffect count={count} val={0}/>
-    <button onClick={countHandler}>Change Count</button>
-    </>
-  );
+    <UseContextA />
+  )
 }
 
 export default App;
