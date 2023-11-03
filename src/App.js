@@ -23,7 +23,11 @@ import React, { useEffect,useState } from "react";
 // import UseMemo from "./Components/functionHooks/UseMemo";
 // import UseCallbackParent from "./Components/functionHooks/UseCallbackParent";
 // import ComA from "./Components/functionHooks/UseContext/ComA";
-import UseContextA from "./Components/functionHooks/UseContext/UseContextA";
+// import UseContextA from "./Components/functionHooks/UseContext/UseContextA";
+
+
+// ----------------------------------
+import TodoList from "./Components/todoList/TodoList";
 
 // function App() {
 //   const [count,setCount] = useState(0)
@@ -43,7 +47,7 @@ import UseContextA from "./Components/functionHooks/UseContext/UseContextA";
 
 const App = ()=>{
   return (
-    <UseContextA />
+    <TodoList />
   )
 }
 
