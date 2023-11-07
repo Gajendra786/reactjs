@@ -27,7 +27,12 @@ import React, { useEffect,useState } from "react";
 
 
 // ----------------------------------
-import TodoList from "./Components/todoList/TodoList";
+// import TodoList from "./Components/todoList/TodoList";
+
+
+// -----------------------------------------------
+// import SimpleContainer from "./Components/mui/MuiStructure";
+import WeatherApp from "./Components/weatherApp/weatherApp";
 
 // function App() {
 //   const [count,setCount] = useState(0)
@@ -47,7 +52,7 @@ import TodoList from "./Components/todoList/TodoList";
 
 const App = ()=>{
   return (
-    <TodoList />
+    <WeatherApp />
   )
 }
 
