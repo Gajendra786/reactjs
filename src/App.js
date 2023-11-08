@@ -32,7 +32,8 @@ import React, { useEffect,useState } from "react";
 
 // -----------------------------------------------
 // import SimpleContainer from "./Components/mui/MuiStructure";
-import WeatherApp from "./Components/weatherApp/weatherApp";
+// import WeatherApp from "./Components/weatherApp/weatherApp";
+import Counter from "./Components/redux_practice/Counter"
 
 // function App() {
 //   const [count,setCount] = useState(0)
@@ -52,7 +53,7 @@ import WeatherApp from "./Components/weatherApp/weatherApp";
 
 const App = ()=>{
   return (
-    <WeatherApp />
+    <Counter />
   )
 }
 
